@@ -142,9 +142,9 @@ body {
 .our-team {
   background-color: var(--section-color);
   h2 {
-    color:var(--yellow-color);
+    color: var(--yellow-color);
   }
-  .box h4  {
+  .box h4 {
     background-color: var(--green-color);
   }
 }
@@ -157,19 +157,50 @@ body {
 /* Start Subscribe  */
 .subscribe {
   background-color: var(--yellow-color);
-  input[type="text"]{
-    border:none;
+  input[type="text"] {
+    border: none;
     border-bottom: 1px solid white;
-    &:focus{
+    &:focus {
       outline: none;
     }
   }
-  &::placeholder{ 
+  &::placeholder {
     color: white;
   }
-   input[type="submit"]{
+  input[type="submit"] {
     background-color: var(--dark-color);
-    color: var(--yellow-color)
-   }
+    color: var(--yellow-color);
+  }
 }
 /* End Subscribe  */
+/* Start Footer  */
+.footer {
+  background-color: var(--dark-color);
+  .info .copyright {
+    > span {
+      color: var(--green-color);
+    }
+    span:last-child {
+      color: var(--yellow-color);
+    }
+  }
+  .contact ul {
+    svg {
+      width: 20px;
+      height: 20px;
+    }
+    .facebook {
+      background-color: #1877f2;
+    }
+    .x {
+      background-color: #1C1C1A; 
+    }
+    .linkedin {
+      background-color: #0077b5;
+    }
+    .youtube{
+      background-color: #ff0000;
+    }
+  }
+}
+/* End Footer  */
